@@ -1,0 +1,11 @@
+.aboutUsBG{
+    background-color: #e2e0e0;
+}
+.aboutUsDiv{
+    background-color: white;
+    margin: 15px;
+    padding: 5px;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid rgb(218, 217, 217);
+}

@@ -1,0 +1,28 @@
+.formStyle{
+    background-color: white;
+    box-shadow: 0px 10px 30px #00000017;
+    border-radius: 6px;
+    border: 1px solid #eee;
+}
+.formStyle input {
+    width: 300px;
+    height: 40px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+}
+p{
+    padding-top: 10px;
+}
+.custom-button-2 {
+    background-color: #ee163b;
+    border: none;
+    padding: 12px 30px;
+    color: white;
+    font-weight: 600;
+    border-radius: 30px 4px 30px 4px;
+    transition: 0.2s;
+    width: 300px;
+}
+.custom-button-2:hover {
+    background-color: #0f0c2f;
+}

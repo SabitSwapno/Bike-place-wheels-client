@@ -1,0 +1,10 @@
+.card-style {
+    box-shadow: 0px 0px 30px rgb(138 138 138 / 23%);
+    border-radius: 5px;
+    border: 1px solid #eee;
+    background-color: #fff;
+    transition: all 0.6s ease-in-out;  
+}
+.card-style:hover {
+    border: 1px solid #ee163b;
+}

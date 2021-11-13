@@ -1,0 +1,10 @@
+.feedback-card-style {
+    box-shadow: 0px 0px 30px rgb(138 138 138 / 23%);
+    border-radius: 40px 5px;
+    border: 1px solid #eee;
+    background-color: #fff;
+    transition: all 0.6s ease-in-out;
+}
+.feedback-card-style:hover {
+    border-left: 5px #ee163b;
+}
