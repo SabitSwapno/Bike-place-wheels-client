@@ -40,14 +40,15 @@ const Myorders = () => {
                     key={buy._id}
                     buy={buy}
                 >
-                    <Table striped bordered hover size="sm">
+                    <Table striped bordered hover size="sm"
+                        width="100%">
                         <thead>
                             <tr>
                                 <th>Name</th>
                                 <th>Email</th>
                                 <th>Address</th>
                                 <th>Status</th>
-                                <th>Serviceid</th>
+                                <th>ServiceName</th>
                                 <th>Actions</th>
                             </tr>
                         </thead>

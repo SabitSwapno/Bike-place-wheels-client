@@ -35,9 +35,9 @@ function App() {
             <Route path="/register">
               <Register></Register>
             </Route>
-            <PrivateRoute path="/exploreservice">
+            <Route path="/exploreservice">
               <ExploreServices></ExploreServices>
-            </PrivateRoute>
+            </Route>
             <PrivateRoute path="/buying/:serviceId">
               <Buying></Buying>
             </PrivateRoute>

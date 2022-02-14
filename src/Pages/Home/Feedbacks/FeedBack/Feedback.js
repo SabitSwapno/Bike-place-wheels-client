@@ -1,4 +1,5 @@
 import React from 'react';
+import Rating from 'react-rating';
 import './Feedback.css';
 
 
@@ -11,7 +12,14 @@ const Feedback = (props) => {
                 <div className="card-body">
                     <h5 className="card-title">{name}</h5>
                     <p className="card-text">{say}</p>
-                    <h6>I give {ratings} out of 5</h6>
+                    <h6><Rating
+                        initialRating={ratings}
+                        readonly emptySymbol="fa fa-star-o"
+                        fullSymbol="fa fa-star"
+                        style={{
+                            color: "#F8AE01"
+                        }}
+                    ></Rating></h6>
                 </div>
             </div>
         </div>

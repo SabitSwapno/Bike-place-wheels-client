@@ -1,6 +1,7 @@
 import React from 'react';
 import { HashLink } from 'react-router-hash-link';
 import './Footer.css'
+import MyImg from '../../../img/Swap-logos_transparent.png'
 
 const Footer = () => {
     return (
@@ -31,15 +32,22 @@ const Footer = () => {
                     <button className="btn btn-outline-light">Get Directions</button>
                 </div>
             </div>
-            <div style={{
+            <div className='row' style={{
                 backgroundColor: "#ee163b",
-                paddingTop: "25px",
-                paddingBottom: "20px",
+                paddingTop: "15px",
+                paddingBottom: "15px",
                 borderRadius: "2px",
                 color: "white",
                 fontWeight: "500"
             }}>
-                <h6>Developed by The Bike Place and Wheels</h6>
+                <div className='col-md-6 col-sm-12 d-flex align-items-center'>
+                    <h5 className='p-5'>Developed The Bike Place and Wheels by Mr.Swap</h5>
+                </div>
+                <div className='col-md-6 col-sm-12'>
+                    <img style={{
+                        width: "25%"
+                    }} src={MyImg} alt="" />
+                </div>
             </div>
         </>
     );
