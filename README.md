@@ -1,10 +1,28 @@
-# Getting Started with Create React App
+# The Bike Place & Wheels(Bike Provider website)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live site link: https://the-bike-place-and-wheels.firebaseapp.com/ 
+Server code link: https://github.com/SabitSwapno/Bike-place-wheels-server
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+## Production
+
+Making the world a better place through producing elegant consequences
+
+## Stunning Design
+
+We work on diverse projects for top brands as well as for cool startups. 
+
+## Website's Interactions 
+
+After one-time registration logged-in user can easily place, manage his orders and also leave his/her review.
+Admins have some special access containing adding a product, managing all orders, managing products, and making a new admin.
+
+### Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### `npm start`
 
