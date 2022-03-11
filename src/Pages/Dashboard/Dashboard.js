@@ -24,6 +24,7 @@ import ManageProducts from './Manageproducts/ManageProducts';
 import MakeAdmin from './MakeAdmin/MakeAdmin';
 import AdminRoute from '../PrivateRoute/AdminRoute/AdminRoute';
 import useAuth from '../../Hooks/useAuth';
+import './Dashboard.css';
 
 
 const drawerWidth = 240;
@@ -44,26 +45,26 @@ function Dashboard(props) {
             backgroundColor: "#eee",
         }}>
             <Toolbar />
-            <Link style={{
+            <Link className='hovadded' style={{
                 fontSize: "25px",
                 textDecoration: 'none',
                 color: "#0f0c2f"
             }} to="/">Back to Home</Link>
             <Divider />
             <Toolbar />
-            <Link style={{
+            <Link className='hovadded' style={{
                 fontSize: "20px",
                 textDecoration: 'none',
                 color: "#0f0c2f",
             }} to={`${url}`}>My Orders</Link>
             <br />
-            <Link style={{
+            <Link className='hovadded' style={{
                 fontSize: "20px",
                 textDecoration: 'none',
                 color: "#0f0c2f"
             }} to={`${url}/payment`}>Payment</Link>
             <br />
-            <Link style={{
+            <Link className='hovadded' style={{
                 fontSize: "20px",
                 textDecoration: 'none',
                 color: "#0f0c2f"
@@ -74,25 +75,25 @@ function Dashboard(props) {
 
             {
                 admin && <div>
-                    <Link style={{
+                    <Link className='hovadded' style={{
                         fontSize: "20px",
                         textDecoration: 'none',
                         color: "#0f0c2f",
                     }} to={`${url}/manageorders`}>Manage Orders</Link>
                     <br />
-                    <Link style={{
+                    <Link className='hovadded' style={{
                         fontSize: "20px",
                         textDecoration: 'none',
                         color: "#0f0c2f"
                     }} to={`${url}/addaproduct`}>Add A Product</Link>
                     <br />
-                    <Link style={{
+                    <Link className='hovadded' style={{
                         fontSize: "20px",
                         textDecoration: 'none',
                         color: "#0f0c2f"
                     }} to={`${url}/manageproducts`}>Manage Products</Link>
                     <br />
-                    <Link style={{
+                    <Link className='hovadded' style={{
                         fontSize: "20px",
                         textDecoration: 'none',
                         color: "#0f0c2f"

@@ -26,7 +26,6 @@ const Register = () => {
             return
         }
         registerUser(loginData.email, loginData.password, loginData.name, history)
-
     }
 
 
